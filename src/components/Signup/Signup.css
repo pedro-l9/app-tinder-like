@@ -1,0 +1,18 @@
+.Wrapper {
+  height: 100%;
+}
+
+.Wrapper form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.Wrapper .MuiTextField-root {
+  margin: 20px;
+}
+
+.Wrapper button {
+  margin: 20px;
+}
