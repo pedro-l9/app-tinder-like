@@ -8,20 +8,20 @@ declare var chrome: any;
 
 const people = [
   {
-    name: 'Pedro',
-    url: 'https://s.gravatar.com/avatar/1774f7db0ce16124fd9505f0e6851e6a?s=200',
+    name: 'Pedro, 22',
+    url: 'https://i.imgur.com/hlKSLDc.jpg',
   },
   {
-    name: 'Pedro2',
-    url: 'https://s.gravatar.com/avatar/1774f7db0ce16124fd9505f0e6851e6a?s=200',
+    name: 'Iarin, 22',
+    url: 'https://i.imgur.com/n69gZNz.png',
   },
   {
-    name: 'Pedro3',
-    url: 'https://s.gravatar.com/avatar/1774f7db0ce16124fd9505f0e6851e6a?s=200',
+    name: 'Gabriela, 22',
+    url: 'https://i.imgur.com/2zO4OGXh.jpg',
   },
   {
-    name: 'Pedro4',
-    url: 'https://s.gravatar.com/avatar/1774f7db0ce16124fd9505f0e6851e6a?s=200',
+    name: 'Bruno, 22',
+    url: 'https://i.imgur.com/BT1Nogk.jpg',
   },
 ];
 
