@@ -59,7 +59,12 @@ function Login() {
           )}
         />
 
-        <Button type="submit" variant="contained" color="success">
+        <Button
+          className="login-button"
+          type="submit"
+          variant="contained"
+          color="success"
+        >
           Login
         </Button>
       </form>

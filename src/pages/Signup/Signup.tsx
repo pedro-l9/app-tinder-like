@@ -66,7 +66,12 @@ function Signup() {
           )}
         />
 
-        <Button type="submit" variant="contained" color="success">
+        <Button
+          className="signup-button"
+          type="submit"
+          variant="contained"
+          color="success"
+        >
           Signup
         </Button>
       </form>
