@@ -1,0 +1,12 @@
+lobby-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+lobby-button > button {
+  margin-top: 20px;
+  width: 90%;
+  height: 40px;
+}

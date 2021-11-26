@@ -1,10 +1,22 @@
+import { MemoryRouter, Route, Routes } from 'react-router-dom';
+
+import useAccountContext from './hooks/useAccountContext';
+
 import './App.css';
-import Signup from './components/Signup/Signup';
+import { Home, Lobby, Login, Signup } from './pages';
 
 function App() {
+  const { isAuthenticated } = useAccountContext();
+
   return (
-    <div className="App">
-      <Signup />
+    <div className={'App'}>
+      <MemoryRouter>
+        <Routes>
+          <Route path="/" element={isAuthenticated ? <Home /> : <Lobby />} />
+          <Route path="login" element={<Login />} />
+          <Route path="signup" element={<Signup />} />
+        </Routes>
+      </MemoryRouter>
     </div>
   );
 }

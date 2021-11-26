@@ -1,0 +1,17 @@
+.Wrapper {
+  height: 100%;
+}
+
+.Wrapper form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Wrapper form .MuiTextField-root {
+  background-color: #fff;
+}
+
+.Wrapper button {
+  margin-top: 20px;
+}

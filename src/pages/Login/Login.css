@@ -5,14 +5,13 @@
 .Wrapper form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
+  height: 100vh;
 }
 
-.Wrapper .MuiTextField-root {
-  margin: 20px;
+.Wrapper form .MuiTextField-root {
+  background-color: #fff;
 }
 
 .Wrapper button {
-  margin: 20px;
+  margin-top: 20px;
 }

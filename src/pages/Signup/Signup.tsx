@@ -41,7 +41,13 @@ function Signup() {
           control={control}
           defaultValue=""
           render={({ field }) => (
-            <TextField label="Phone" focused type="tel" {...field} />
+            <TextField
+              label="Phone"
+              focused
+              type="tel"
+              variant="filled"
+              {...field}
+            />
           )}
         />
 
@@ -50,7 +56,13 @@ function Signup() {
           control={control}
           defaultValue=""
           render={({ field }) => (
-            <TextField label="Password" focused type="password" {...field} />
+            <TextField
+              label="Password"
+              focused
+              type="password"
+              variant="filled"
+              {...field}
+            />
           )}
         />
 
