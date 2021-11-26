@@ -1,0 +1,4 @@
+.people-matching {
+  display: flex;
+  flex-direction: column;
+}

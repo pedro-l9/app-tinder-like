@@ -1,0 +1,20 @@
+.im-going {
+  width: 80%;
+  height: 40px;
+  background-color: green;
+  color: #fefefe;
+  justify-self: center;
+  border: 0px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 65%;
+}
+
+.event-confirmation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
